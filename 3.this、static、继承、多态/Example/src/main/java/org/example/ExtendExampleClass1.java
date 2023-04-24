@@ -13,4 +13,7 @@ public class ExtendExampleClass1 extends ExampleClass {
     public void printInfo(){//Override
         System.out.println("Student Name is "+stuName+",address is "+stuAddr+",Grade is "+stuGrade);
     }
+    protected void callbackFunction(){
+        System.out.println("public class ExtendExampleClass1 extends ExampleClass");
+    }
 }

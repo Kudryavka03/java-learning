@@ -32,5 +32,14 @@ public class ExampleClass {
     {
         System.out.println("You can call me at anywhere after import!");
     }
+    protected void callbackFunction(){
+        System.out.println("public class ExampleClass");
+    }
+    protected void callbackFunction3(){
+        System.out.println("public class ExampleClass 2");
+    }
+    protected void call1(){
+        callbackFunction();
+    }
 }
 

@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Static Method doesn't need new.");
         exampleFuction();
         ExampleClass exampleFx = new ExampleClass("Lihua");
+        ExampleClass exampleFxTest = new ExtendExampleClass2("Lihua");
         exampleFx.printInfo();
         ExampleClass exampleFx1 = new ExtendExampleClass1("Guangdong","Wangwu","9");//Auto Convert
         ExampleClass exampleFx2 = new ExtendExampleClass2("Zhaoliu");
@@ -18,6 +19,12 @@ public class Main {
         exampleFx3.printInfo();
         exampleFx1.printInfo();
         exampleFx2.printInfo();
+        ///////////////////////
+        exampleFxTest.callbackFunction();
+        exampleFx3.callbackFunction2();
+        exampleFxTest.call1();
+        exampleFx3.callbackFunction3();
         System.out.println("exampleFx1 "+(exampleFx1 instanceof ExampleClass?"is":"is not")+" instance of ExampleClass");
+
     }
 }

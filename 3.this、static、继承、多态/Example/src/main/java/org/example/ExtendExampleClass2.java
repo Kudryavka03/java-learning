@@ -10,4 +10,15 @@ public class ExtendExampleClass2 extends ExampleClass {
     public void printInfo(){//Override
         System.out.println("Hey，"+stuName+"，This echo is from ExtendExampleClass2！");
     }
+
+    protected void callbackFunction(){
+        System.out.println("public class ExtendExampleClass2 extends ExampleClass");
+    }
+    protected void callbackFunction2(){
+        System.out.println("public class ExtendExampleClass2 extends ExampleClass 2");
+    }
+
+    protected void call1(){
+        callbackFunction2();
+    }
 }
