@@ -2,6 +2,7 @@ package org.example;
 interface interfaceExample{
     String color = "yellow";
     String getColor2();
+    //double runTimer(double a,double b,double c);
 }
 abstract class abstractExample implements interfaceExample{
     String color;
@@ -56,5 +57,7 @@ public class Main {
        ///////////////////////
        example.printInfo2();
        example1.printInfo2();
+       //int a(int z,int x,int c);
+
     }
 }
