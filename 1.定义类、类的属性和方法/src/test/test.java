@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class test {
 	public static void main(String[] args){
+		//Test: Equivalent test of string values
+		String test1 = "test",test2="test";
+		System.out.println(test1==test2?"PASS!":"FAILD!");
 		for(;;){
 			System.out.println("请选择你的入口：\n1.一次性编辑并查看学生信息\n2.一次性编辑并查看教师信息");
 			Scanner scanner = new Scanner(System.in);
